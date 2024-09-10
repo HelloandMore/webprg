@@ -1,0 +1,29 @@
+/* Hozzon létre egy tárolót, amely három elemet tartalmaz (zöld, sárga, lila - ebben a sorrendben). 
+A tároló szélessége 600 xéppont, magassága 500 képpont. 
+Hozzon létre egy CSS fájlt a tárolóban lévő elemek megjelenítéséhez. 
+Használja a Flexboxot. Állítsa be a címet "Feladat: 1.4"-re. A zölf elem 1, a sárga 2, a lila 1 egységet foglal el a tárolóban. Az elemek horizontális sorrendje: zöld, lila, sárga. */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 500px;
+    justify-content: space-between;
+}
+
+.green {
+    background-color: green;
+    flex: 1;
+}
+
+.yellow {
+    background-color: yellow;
+    order: 3;
+    flex: 2;
+}
+
+.purple {
+    background-color: purple;
+    order: 2;
+    flex: 1;
+}
