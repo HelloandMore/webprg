@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.top-bar {
+    display: flex;
+    background-color: #4B0031;
+}
+
+.square {
+    width: 65px;
+    height: 15px;
+    background-color: #00FFFF;
+    margin: 5px;
+}
+
+.content {
+    display: flex;
+    flex: 1;
+}
+
+.yellow-box {
+    background-color: yellow;
+    flex: 2;
+}
+
+.green-box {
+    background-color: green;
+    flex: 1;
+}

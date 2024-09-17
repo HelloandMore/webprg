@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+}
+
+.left-section {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding: 10px;
+}
+
+.left-section .top-bar {
+    background-color: #00CED1;
+    /* Light blue top bar */
+    height: 50px;
+}
+
+.left-section .color-blocks {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.left-section .color-blocks div {
+    margin-bottom: 5px;
+    flex: 1;
+}
+
+.left-section .color-blocks .orange {
+    background-color: #FFA500;
+    /* Orange */
+}
+
+.left-section .color-blocks .beige {
+    background-color: #F5F5DC;
+    /* Beige */
+}
+
+.left-section .color-blocks .red {
+    background-color: #FF0000;
+    /* Red */
+}
+
+.left-section .color-blocks .purple {
+    background-color: #800080;
+    /* Purple */
+}
+
+.left-section .color-blocks .blue {
+    background-color: #0000FF;
+    /* Blue */
+}
+
+.right-section {
+    flex: 1;
+    background-color: #F5F5F5;
+    /* Light grey background */
+    position: relative;
+}
+
+.right-section .small-black-box {
+    width: 20px;
+    height: 20px;
+    background-color: #000000;
+    /* Black box */
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}

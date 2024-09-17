@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    background-color: #800080; /* Purple header */
+    padding: 10px;
+}
+
+.header div {
+    background-color: #02e8ec; /* Light blue squares */
+    width: 50px;
+    height: 21px;
+    margin-right: 10px;
+}
+
+.main {
+    display: flex;
+    flex: 1;
+}
+
+.sidebar {
+    background-color: #008000; /* Green sidebar */
+    flex: 1;
+}
+
+.content {
+    background-color: #FFFF00; /* Yellow content */
+    flex: 2;
+}
+
+.footer {
+    background-color: #999999; /* Light grey footer */
+    height: 40px;
+}
